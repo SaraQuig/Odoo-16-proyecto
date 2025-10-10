@@ -28,10 +28,10 @@ Este es un proyecto desarrollado en **Odoo 16** con Python, PostgreSQL y depende
 10. Instala las dependencias (Asegurate de poner bien la contraseña y el usuario en el archivo odoo.conf): pip install -r odoo/requirements.txt
 11. Inicializa la base de datos: python odoo/odoo-bin -c odoo.conf -d nombre_base_de_datos --dev=all
 
-##**Crea tu módulo**
+## **Crea tu módulo**
 1. Crea tu primer módulo personalizado (MVC)
 
-##**Instalación del módulo personalizado**
+## **Instalación del módulo personalizado**
 1. Entra a http://localhost:8069
 2. Activa modo desarrollador
 3. Ve a Aplicaciones → Actualizar lista de aplicaciones
