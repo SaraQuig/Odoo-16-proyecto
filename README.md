@@ -20,11 +20,8 @@ Este es un proyecto desarrollado en **Odoo 16** con Python, PostgreSQL y depende
 3. cd odoo16
 4. Crea un entorno virtual: python -m venv venv
 5. Activar el entorno virtual:
-   
        En windows:  venv\Scripts\activate
-   
        En linux:    source venv/bin/activate
-   
 7. Clonar el repositorio de odoo 16: git clone https://github.com/odoo/odoo.git -b 16.0
 8. Crear carpeta de modulos personalizados: mkdir custom_addons
 9. Crea el archivo de configuración odoo.conf en la carpeta general
@@ -55,10 +52,12 @@ Este es un proyecto desarrollado en **Odoo 16** con Python, PostgreSQL y depende
 5. Haz clic en Instalar
 6. Busca auth_jwt y da clic en instalar
 
-## ** Prueba en postam **
+## **Prueba en Postam**
 
 Para obtener el token (POST): http://localhost:8069/api/jwt/login
+
 header: content-Type -> application/json
+
 {
   "params": {
     "login": "tu_login",
@@ -67,8 +66,10 @@ header: content-Type -> application/json
 }
 
 Para crear contactos (POST): http://localhost:8069/api/contacts
+
 header: content-Type -> application/json
        Autorization -> token
+       
 {
   "name": "nombre_contacto",
   "email": "correo_contacto@correo.com",
@@ -76,17 +77,21 @@ header: content-Type -> application/json
 }
 
 Obtener contactos (GET): http://localhost:8069/api/contacts
+
 Header: Autorization -> Token
 
 Actualizar un contacto (PUT): http://localhost:8069/api/contacts/41
+
 header: content-Type -> application/json
        Autorization -> token
+       
 {
   "phone": "098888777",
   "email": "email.actualizado@mail.com"
 }
 
 Eliminar contacto (DELETE): http://localhost:8069/api/contacts/41?
+
 Header: Autorization -> Token
 
 
