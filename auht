@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+#esto es lo que hay en jwt_auth.py
+from datetime import datetime, timedelta
+import jwt
+from odoo import _
+from odoo.tools import config
+
+def create_token(user):
+    """Crea un JWT para el usuario."""
+    secret = config.get('jwt_secret')
+    algorithm = config.get('jwt_algorithm', 'HS256')
+    expiration = int(config.get('jwt_expiration', 3600))
+
+    payload = {
+        'uid': user.id,
+        'login': user.login,
+        'exp': datetime.utcnow() + timedelta(seconds=expiration)
+    }
+
+    token = jwt.encode(payload, secret, algorithm=algorithm)
+    return token
