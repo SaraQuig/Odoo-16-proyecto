@@ -1,0 +1,19 @@
+2025-10-09 23:37:16,179 20412 INFO ? odoo: Odoo version 16.0 
+2025-10-09 23:37:16,179 20412 INFO ? odoo: Using configuration file at C:\Users\Sarita\odoo16_proyecto\odoo.conf 
+2025-10-09 23:37:16,179 20412 INFO ? odoo: addons paths: ['C:\\Users\\Sarita\\odoo16_proyecto\\odoo\\odoo\\addons', 'c:\\users\\sarita\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'c:\\users\\sarita\\odoo16_proyecto\\odoo\\addons', 'c:\\users\\sarita\\odoo16_proyecto\\custom_addons', 'c:\\users\\sarita\\odoo16_proyecto\\odoo\\odoo\\addons'] 
+2025-10-09 23:37:16,179 20412 INFO ? odoo: database: odoo@default:default 
+2025-10-09 23:37:16,231 20412 INFO ? odoo.sql_db: Connection to the database failed 
+2025-10-09 23:57:21,515 8984 INFO ? odoo: Odoo version 16.0 
+2025-10-09 23:57:21,516 8984 INFO ? odoo: Using configuration file at C:\Users\Sarita\odoo16_proyecto\odoo.conf 
+2025-10-09 23:57:21,516 8984 INFO ? odoo: addons paths: ['C:\\Users\\Sarita\\odoo16_proyecto\\odoo\\odoo\\addons', 'c:\\users\\sarita\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'c:\\users\\sarita\\odoo16_proyecto\\odoo\\addons', 'c:\\users\\sarita\\odoo16_proyecto\\custom_addons', 'c:\\users\\sarita\\odoo16_proyecto\\odoo\\odoo\\addons'] 
+2025-10-09 23:57:21,516 8984 INFO ? odoo: database: odoo@default:default 
+2025-10-09 23:57:21,559 8984 INFO ? odoo.sql_db: Connection to the database failed 
+2025-10-09 23:59:41,905 12364 INFO ? odoo: Odoo version 16.0 
+2025-10-09 23:59:41,905 12364 INFO ? odoo: Using configuration file at C:\Users\Sarita\odoo16_proyecto\odoo.conf 
+2025-10-09 23:59:41,905 12364 INFO ? odoo: addons paths: ['C:\\Users\\Sarita\\odoo16_proyecto\\odoo\\odoo\\addons', 'c:\\users\\sarita\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'c:\\users\\sarita\\odoo16_proyecto\\odoo\\addons', 'c:\\users\\sarita\\odoo16_proyecto\\custom_addons', 'c:\\users\\sarita\\odoo16_proyecto\\odoo\\odoo\\addons'] 
+2025-10-09 23:59:41,905 12364 INFO ? odoo: database: odoo@default:default 
+2025-10-09 23:59:41,942 12364 INFO ? odoo.sql_db: Connection to the database failed 
+2025-10-10 00:00:18,188 16716 INFO ? odoo: Odoo version 16.0 
+2025-10-10 00:00:18,188 16716 INFO ? odoo: Using configuration file at C:\Users\Sarita\odoo16_proyecto\odoo.conf 
+2025-10-10 00:00:18,188 16716 INFO ? odoo: addons paths: ['C:\\Users\\Sarita\\odoo16_proyecto\\odoo\\odoo\\addons', 'c:\\users\\sarita\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'c:\\users\\sarita\\odoo16_proyecto\\odoo\\addons', 'c:\\users\\sarita\\odoo16_proyecto\\custom_addons', 'c:\\users\\sarita\\odoo16_proyecto\\odoo\\odoo\\addons'] 
+2025-10-10 00:00:18,188 16716 INFO ? odoo: database: odoo@localhost:5432 
