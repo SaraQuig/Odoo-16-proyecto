@@ -40,7 +40,17 @@ Este es un proyecto desarrollado en **Odoo 16** con Python, PostgreSQL y depende
        git clone https://github.com/OCA/rest-framework.git -b 16.0
        
 13. Inicializa la base de datos: python odoo/odoo-bin -c odoo.conf -d nombre_base_de_datos --dev=all
+14. No olvidarse de crear un JWT Validator en odoo, en settings, con la siguiente configuración:
 
+    name: api
+    audience: api
+    Isuer: odoo
+    Signature Type: Secret
+    Key: MiClaveJWTsuperSegura123
+    Algorithm: HS256 - HMAC using SHA-256
+    User Id Strategy: Static
+    Static User: Mitchell Admin
+    
 ## **Crea tu módulo**
 1. Crea módulo personalizado (MVC)
 
